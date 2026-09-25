@@ -135,8 +135,8 @@ Signal flow: Sensors and button → Arduino → processing/decision → L293D + 
 - Add IR or PIR sensors for more reliable intrusion/motion detection. 
 
 - Use an encoder-based feedback system for more precise navigation. 
+<img width="1130" height="1599" alt="image" src="https://github.com/user-attachments/assets/01f05e01-a80f-4539-a378-1a891a06f584" />
 
-## **11. Conclusion** 
-<img width="1130" height="1599" alt="image" src="https://github.com/user-attachments/assets/768e35af-cefd-4a5e-856a-5306b228b1d0" />
+## **11. Conclusion*
 
-The Patrol Car project successfully demonstrates how an Arduino UNO, an L293D motor driver, an ultrasonic sensor with a servo-based scanning mechanism, a buzzer and a push button can be combined into a functional autonomous patrol robot. It provides a practical, low-cost foundation for security and surveillance applications while remaining simple enough to extend with additional sensors, wireless communication or camera-based monitoring in future iterations.
+The raptor project successfully demonstrates how an Arduino UNO, an L293D motor driver, an ultrasonic sensor with a servo-based scanning mechanism, a buzzer and a push button can be combined into a functional autonomous raptor robot. It provides a practical, low-cost foundation for security and surveillance applications while remaining simple enough to extend with additional sensors, wireless communication or camera-based monitoring in future iterations.
