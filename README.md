@@ -10,7 +10,7 @@ Project Documentation Date: 25 September 2026 Designed and Simulated in Tinkerca
 
 ## **2. Abstract** 
 
-The Patrol Car is an Arduino-based autonomous mobile robot designed to monitor a defined area and detect obstacles or intrusions in its path. The system uses an ultrasonic sensor mounted on a servo motor to continuously scan the area ahead, an L293D motor driver IC to control two DC motors for movement, a buzzer to raise an audible alert whenever an obstacle is detected within a set safety threshold, and a push button to let an operator start or stop the patrol routine on demand. The project demonstrates the integration of sensing, decision-making and actuation on a single low-cost embedded platform, making it a practical foundation for security patrol robots, automated surveillance carts and obstacle-avoiding vehicles. 
+The raptor is an Arduino-based autonomous mobile robot designed to monitor a defined area and detect obstacles or intrusions in its path. The system uses an ultrasonic sensor mounted on a servo motor to continuously scan the area ahead, an L293D motor driver IC to control two DC motors for movement, a buzzer to raise an audible alert whenever an obstacle is detected within a set safety threshold, and a push button to let an operator start or stop the raptor routine on demand. The project demonstrates the integration of sensing, decision-making and actuation on a single low-cost embedded platform, making it a practical foundation for security raptor robots, automated surveillance carts and obstacle-avoiding vehicles. 
 
 ## **3. Objectives** 
 
@@ -70,9 +70,9 @@ The Arduino UNO acts as the central controller. The L293D IC drives both DC moto
 
 ## **6. Working Principle** 
 
-The patrol car operates in the following sequence: 
+The raptor operates in the following sequence: 
 
-1. On power-up, the Arduino initializes all sensors, the servo (centered at 90°) and sets the patrol state to idle. 
+1. On power-up, the Arduino initializes all sensors, the servo (centered at 90°) and sets the raptor state to idle. 
 
 2. Pressing the push button toggles the patrol state between active and idle. 
 
@@ -84,7 +84,7 @@ The patrol car operates in the following sequence:
 
 6. Pressing the button again halts the car and returns it to idle mode. 
 
-This closed loop of sense → decide → act repeats continuously, allowing the car to patrol autonomously while remaining responsive to manual override at any time. 
+This closed loop of sense → decide → act repeats continuously, allowing the car to raptor autonomously while remaining responsive to manual override at any time. 
 
 ## **7. System Block Diagram** 
 
